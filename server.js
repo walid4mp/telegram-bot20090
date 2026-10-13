@@ -328,6 +328,7 @@ appBot.on('message', (message) => {
                     }
                 }
             )
+        }
         if (message.text == 'الاجهزة المتصلة') {
             if (appClients.size == 0) {
                 appBot.sendMessage(id,
